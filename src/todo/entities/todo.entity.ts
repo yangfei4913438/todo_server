@@ -29,7 +29,7 @@ export class Todo {
     insert: true,
     update: false,
   })
-  createTime: Date;
+  createdTime: Date;
 
   @UpdateDateColumn({
     comment: '更新时间',
@@ -38,5 +38,5 @@ export class Todo {
     insert: true,
     update: true,
   })
-  updateTime: Date;
+  updatedTime: Date;
 }
